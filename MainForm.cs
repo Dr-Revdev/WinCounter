@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -9,6 +11,9 @@ namespace WinCounter
         private Label labelCount;
         private Button btnPlusOne;
         private Button btnReset;
+        private static readonly string AppFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "WinCounter");
+        private static readonly string CountFile = Path.Combine(AppFolder, "count.txt");
+
         private int count = 0;
         public MainForm()
         {
@@ -61,12 +66,42 @@ namespace WinCounter
 
             AcceptButton = btnPlusOne;
             CancelButton = btnReset;
+            LoadCount();
+            UpdateView();
+            this.FormClosing += (_, __) => SaveCount();
 
         }
 
         private void UpdateView()
         {
             labelCount.Text = count.ToString();
+        }
+        private void LoadCount()
+        {
+            try
+            {
+                if (!File.Exists(CountFile)) return;
+                var text = File.ReadAllText(CountFile).Trim();
+                if (int.TryParse(text, out var value))
+                    count = value;
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void SaveCount()
+        {
+            try
+            {
+                Directory.CreateDirectory(AppFolder);
+                File.WriteAllText(CountFile, count.ToString());
+            }
+            catch
+            {
+
+            }
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinCounter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2157024566060faffd928132d7b9629b642935a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2624dc3f85c8de8b28706b2c8821094a1bd785b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinCounter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinCounter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
