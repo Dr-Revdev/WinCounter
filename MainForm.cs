@@ -8,6 +8,7 @@ namespace WinCounter
     {
         private Label labelCount;
         private Button btnPlusOne;
+        private Button btnReset;
         private int count = 0;
         public MainForm()
         {
@@ -41,6 +42,25 @@ namespace WinCounter
                 UpdateView();
             };
             Controls.Add(btnPlusOne);
+
+            btnReset = new Button
+            {
+                Text = "Réinitialiser",
+                Width = 120,
+                Height = 40,
+                Left = 230,
+                Top = 120,
+                TabIndex = 1
+            };
+            btnReset.Click += (_, __) =>
+            {
+                count = 0;
+                UpdateView();
+            };
+            Controls.Add(btnReset);
+
+            AcceptButton = btnPlusOne;
+            CancelButton = btnReset;
 
         }
 
