@@ -1,0 +1,14 @@
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\bin\Debug\net9.0-windows\WinCounter.exe
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\bin\Debug\net9.0-windows\WinCounter.deps.json
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\bin\Debug\net9.0-windows\WinCounter.runtimeconfig.json
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\bin\Debug\net9.0-windows\WinCounter.dll
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\bin\Debug\net9.0-windows\WinCounter.pdb
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.AssemblyInfoInputs.cache
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.AssemblyInfo.cs
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.csproj.CoreCompileInputs.cache
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.dll
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\refint\WinCounter.dll
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.pdb
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\WinCounter.genruntimeconfig.cache
+C:\Users\iwanr\OneDrive\Dokumente\CODE\c_sharp\WinCounter\obj\Debug\net9.0-windows\ref\WinCounter.dll
